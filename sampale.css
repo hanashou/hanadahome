@@ -1,0 +1,99 @@
+body {
+    margin: 0;
+  }
+  
+header {
+    background-color: #ffffff;
+  }
+  
+  header h1 {
+    margin-top: 0;
+    margin-left: 50px;
+    padding-top: 10px;
+  }
+
+  .title{
+    text-align: center;
+  }
+
+  .title p{
+    font-size:64px;
+	text-align:center;
+	line-height:0.95em;
+	font-weight:bold;
+	color: #FFF;
+	text-shadow: 0 0 0.1em rgb(0, 0, 0);
+  }
+
+  .yuki {/*親div*/
+    position: relative;/*相対配置*/
+    }
+
+  .yuki p{
+    position: absolute;/*絶対配置*/
+    color: rgb(0, 0, 0);/*文字は白に*/
+    top: center;
+    left: center;
+    font-family: "Nico Moji";/*Google Font*/
+    background-color: rgb(194, 255, 255);
+    margin: 0; /*余計な隙間を除く*/
+  }
+  .yuki img {
+    width:auto;
+    height:auto;
+    max-width:40%;
+    max-height:40%;
+    justify-content: center;
+}
+
+h2{
+  border-bottom: double 5px #FFC778;
+}
+h3,p {
+  text-align: center;
+}
+h1{
+  position: relative;
+  padding: 1.5rem;
+  text-align: center;
+  padding: 1rem 2rem;
+  color: #fff;
+  background-image: linear-gradient(to right, #fc3d56 10%, #c7faf1 90%);
+}
+
+h1:before {
+  position: absolute;
+  bottom: -10px;
+  left: calc(50% - 30px);
+  width: 60px;
+  height: 5px;
+  content: '';
+  border-radius: 3px;
+  background: #ce3838;
+}
+
+  ul{
+    display: flex;
+    list-style: none;
+  }
+  
+  a:hover {
+    cursor: pointer;
+  }
+  
+  footer {
+    text-align: center;
+    background-color: #f7ecec;
+  }
+
+  .sub{
+    text-align: center;
+    color: #000000;
+  }
+
+  ol{
+    display: flex;
+    flex-wrap: wrap; /* 折返し指定 */
+    gap: 30px; /* 余白 */
+    list-style: none;
+  }
